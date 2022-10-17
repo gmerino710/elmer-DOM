@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1 DOM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="biblioteca.js"></script>
+</head>
+<body onload="javascript:Iniciar()">
+    
+  <div id="captura">
+    <fieldset>
+      <legend>Formulario de captura de datos de  los clientes</legend>
+      <summary>
+        <form name="frmCaptura">
+          <input type="text" name="id" placeholder="Digite el ID"><br>
+          <br>
+          <input type="text" name="nom" placeholder="Digite los nombres"><br>
+          <br>
+          <input type="text" name="ape" placeholder="Digite los apellidos"><br>
+          <input type="button" id="actionButton" value="Aceptar" onclick="javascript:AceptarForm()">
+          <input type="button" value="Cancelar" onclick="javascript:CancelarForm()">
+          
+        </form>
+      </summary>
+    </fieldset>
+  </div> 
+  <div id="principal">
+    <fieldset>
+      <div id="tabla"></div>
+      <p>
+        <input type="button" value="Agregar" onclick="javascript:Agregar()">
+        <input type="button" value="Eliminar" onclick="javascript:Eliminar()">
+        <input type="button" value="Modificar" onclick="javascript:Modificar()">
+      </p>
+    </fieldset>
+    
+  </div>
+</body>
+</html>

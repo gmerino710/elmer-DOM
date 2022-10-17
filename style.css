@@ -1,0 +1,28 @@
+fieldset{
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+table, tr, td{
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+#cabecera{
+    background-color: antiquewhite;
+    color: blue;
+}
+#captura{
+    background-color: beige;
+    width: 500px;
+}
